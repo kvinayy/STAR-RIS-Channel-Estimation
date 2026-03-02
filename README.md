@@ -6,7 +6,7 @@ The project combines **tensor-based channel estimation (PARAFAC)** with **optimi
 
 ---
 
-## 📌 Motivation
+## Motivation
 
 Future 6G wireless systems require:
 
@@ -22,11 +22,11 @@ Traditional solutions rely on large antenna arrays, resulting in high hardware c
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 The implemented workflow consists of two major stages:
 
-### 1️⃣ Channel Estimation using PARAFAC
+### Channel Estimation using PARAFAC
 
 STAR-RIS phase switching during pilot transmission naturally forms a **3-way tensor**:
 
@@ -44,7 +44,7 @@ Using **PARAFAC (CP tensor decomposition)**:
 
 ---
 
-### 2️⃣ Sum-Rate Maximization using PDD + BCD Optimization
+### Sum-Rate Maximization using PDD + BCD Optimization
 
 Estimated channels are used to optimize system performance under STAR-RIS hardware constraints.
 
@@ -65,7 +65,7 @@ The algorithm converges to a **KKT optimal solution** for throughput maximizatio
 
 ---
 
-## ⚙️ System Model
+## System Model
 
 - Base Station with **M antennas**
 - STAR-RIS with **N programmable elements**
@@ -77,7 +77,7 @@ The algorithm converges to a **KKT optimal solution** for throughput maximizatio
 
 ---
 
-## 🔄 Overall Workflow
+## Overall Workflow
 
 Pilot Transmission
 ↓
@@ -95,7 +95,7 @@ Maximum Sum-Rate
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### PARAFAC Channel Estimation
 - Accurate recovery of cascaded channels
@@ -110,7 +110,7 @@ Maximum Sum-Rate
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 codes/ → Simulation & implementation codes
 REPORT.pptx → Project presentation
@@ -120,7 +120,7 @@ README.md → Project documentation
 
 ---
 
-## 🧪 Technologies & Concepts
+## Technologies & Concepts
 
 - Intelligent Reflecting Surfaces (IRS)
 - STAR-RIS Systems
@@ -134,14 +134,13 @@ README.md → Project documentation
 
 ---
 
-## 📚 References
+## References
 
-All referenced research papers are listed in  
-➡️ [REFERENCES.md](REFERENCES.md)
+All referenced research papers are listed in [REFERENCES.md](REFERENCES.md)
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 **Vinay Kusumanchi**  
 
